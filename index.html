@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finder AI - ¡Dile adiós a las búsquedas interminables!</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f2f2f2; /* Fondo gris claro */
+        }
+
+        h1, h2 {
+            text-align: center;
+            color: #333; /* Color de texto oscuro */
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white; /* Fondo blanco para el contenido */
+            padding: 20px;
+            border-radius: 10px; /* Bordes redondeados */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+        }
+
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .feature {
+            width: 48%;
+            margin-bottom: 20px;
+        }
+
+        .cta {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .cta button {
+            background-color: #007bff; /* Azul principal */
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease; /* Transición para el efecto hover */
+            text-decoration: none; /* Quitar subrayado del enlace */
+        }
+
+        .cta button:hover {
+            background-color: #0056b3; /* Azul más oscuro al pasar el mouse */
+        }
+
+        /* Estilos para la imagen cuadrada */
+        .square-image {
+            width: 300px; /* Ancho de la imagen */
+            height: 300px; /* Alto de la imagen */
+            margin: 20px auto; /* Margen automático para centrar */
+            display: block; /* Para que la imagen se comporte como un bloque */
+            position: relative; /* Para poder posicionar elementos dentro del contenedor */
+            overflow: hidden; /* Para que la imagen no sobresalga del contenedor */
+        }
+
+        .square-image img {
+            width: 100%; /* Ajustar al ancho del contenedor */
+            height: 100%; /* Ajustar al alto del contenedor */
+            object-fit: cover; /* Cubrir todo el espacio del contenedor */
+            border-radius: 5px; /* Bordes redondeados */
+        }
+
+        /* Estilos para el contenedor de la imagen */
+        .square-image::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.2); /* Fondo semi-transparente */
+            border-radius: 5px; /* Bordes redondeados */
+            transition: background-color 0.3s ease; /* Transición para el efecto hover */
+        }
+
+        .square-image:hover::before {
+            background-color: rgba(0, 0, 0, 0.5); /* Fondo más oscuro al pasar el mouse */
+        }
+
+        /* Estilos para el texto dentro del contenedor */
+        .square-image::after {
+            content: "Finder AI"; /* Texto que se muestra */
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%); /* Centrar el texto */
+            color: white; /* Color del texto */
+            font-size: 24px; /* Tamaño del texto */
+            font-weight: bold; /* Texto en negrita */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>¡Dile adiós a las búsquedas interminables! Presentamos "Finder AI"</h1>
+        <h2>El buscador de archivos híbrido que combina lo mejor del software con la inteligencia artificial.</h2>
+
+        <p>¿Cansado de perder tiempo buscando archivos en tu PC? Finder AI te ayuda a encontrar lo que necesitas de forma rápida y sencilla.</p>
+
+        <div class="square-image">
+            <img src="https://github.com/user-attachments/assets/5ef5c265-9b92-4888-a787-6882d3755070" alt="Imagen cuadrada">
+        </div>
+
+        <h2>¿Qué hace que Finder AI sea diferente?</h2>
+
+        <div class="features">
+            <div class="feature">
+                <h3>Búsqueda inteligente</h3>
+                <p>Finder AI no solo busca por nombre de archivo, sino que utiliza algoritmos inteligentes para analizar patrones y sugerirte archivos relevantes, incluso si no recuerdas el nombre completo.</p>
+            </div>
+            <div class="feature">
+                <h3>Interfaz intuitiva</h3>
+                <p>Su diseño amigable te permite navegar por tu sistema de archivos con facilidad.</p>
+            </div>
+            <div class="feature">
+                <h3>Integración perfecta</h3>
+                <p>Finder AI se integra a la perfección con Windows, permitiéndote abrir archivos directamente desde la aplicación.</p>
+            </div>
+            <div class="feature">
+                <h3>Híbrido software + IA</h3>
+                <p>La combinación de software y algoritmos de inteligencia artificial te ofrece una experiencia de búsqueda superior a cualquier otra herramienta.</p>
+            </div>
+        </div>
+
+        <h2>Finder AI es ideal para:</h2>
+
+        <ul>
+            <li>Usuarios de Windows que buscan una forma más rápida y eficiente de encontrar archivos.</li>
+            <li>Profesionales que necesitan acceder a archivos específicos con rapidez.</li>
+            <li>Cualquier persona que desee optimizar su flujo de trabajo y mejorar su productividad.</li>
+        </ul>
+
+        <p>Con Finder AI, nunca más perderás tiempo buscando archivos.</p>
+
+        <div class="cta">
+            <h3>¡Prueba Finder AI hoy mismo y descubre la diferencia!</h3>
+            <a href="https://estebanmansilla.gumroad.com/l/wtiqf" target="_blank" rel="noopener noreferrer">
+                <button>Comprar ahora en Gumroad</button>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
+
